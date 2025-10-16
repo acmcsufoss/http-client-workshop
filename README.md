@@ -43,3 +43,6 @@ winget install --id=astral-sh.uv  -e
 ```sh
 uv run main.py
 ```
+
+## If You Get Lost
+Find the [completed code here](https://github.com/acmcsufoss/http-client-workshop/blob/completed/main.py)
