@@ -2,6 +2,11 @@ import sys
 import requests
 import json
 
+# Optional error checking
+if len(sys.argv) != 2:
+    print("Error: expected one argument")
+    sys.exit(1)
+
 pokemon = sys.argv[1]
 url = f"https://pokeapi.co/api/v2/pokemon/{pokemon}"
 
